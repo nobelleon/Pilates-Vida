@@ -1,0 +1,315 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}" />
+    <title>Pilates Vida</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="{% static 'assets/img/logo-white.png'%}" alt="logo" class="logo-white" />
+              <img src="{% static 'assets/img/logo1.png'%}" alt="logo" class="logo-dark" />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#class">Classes</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Start now</a></li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn">Get Started</button>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__content">
+          <h1>KNOW THE WAY TO FEEL GOOD</h1>
+          <h2>HAVE VITALITY</h2>
+          <p>
+            Discover your full potential with our specialized training and a space designed for your well-being. Every move is a step towards a healthier, more active, and happier life. Let's turn body care into a lifestyle!
+          </p>
+          <div class="header__btn">
+            <button class="btn">Find out more</button>
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="{% static 'assets/img/header2.png'%}" alt="header" />
+        </div>
+      </div>
+    </header>
+
+   <div class="about" id="about">
+  <div class="section__container about__container">
+    <div class="about__image">
+      <img src="{% static 'assets/img/about1.png'%}" alt="about" />
+    </div>
+    <div class="about__content">
+      <h2 class="section__header">Ready to Change Your Life?</h2>
+      <p>
+        Taking the first step towards a healthier and more active life may seem challenging, but it is also the most rewarding. Whether you're a beginner or already have experience, our personalized Pilates programs are designed to help each person achieve your goals more safely and efficiently.
+      </p>
+      <p>
+        With caring instructors, motivating classes, and a welcoming atmosphere, You will have all the support you need to stay firm in practice and feel the real results on a daily basis.
+      </p>
+      <div class="about__btn">
+        <button class="btn">Get Started</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <section class="service" id="service">
+  <div class="section__container service__container">
+    <h2 class="section__header">Services We Offer</h2>
+    <div class="service__grid">
+      <div class="service__card">
+        <span>01</span>
+        <h4>Functional Training</h4>
+        <p>
+          Our training programs are designed to help you gain strength, improve endurance and reach your health goals safely.
+        </p>
+      </div>
+      <div class="service__card">
+        <span>02</span>
+        <h4>Pilates</h4>
+        <p>
+          Ideal for all ages, our Pilates classes work flexibility, balance, breathing, and strengthening of the body smoothly and effectively.
+        </p>
+      </div>
+      <div class="service__card">
+        <span>03</span>
+        <h4>Stretching</h4>
+        <p>
+          Stretching classes are focused on increasing mobility, releasing tension and promote well-being through light and safe exercise.
+        </p>
+      </div>
+      <div class="service__card">
+        <span>04</span>
+        <h4>Wellness and Relaxation</h4>
+        <p>
+          Activities aimed at reducing stress, improving posture and provide more quality of life with relaxation and breathing techniques.
+        </p>
+      </div>
+      <div class="service__image">
+        <img src="{% static 'assets/img/service.png'%}" alt="services" />
+      </div>
+    </div>
+  </div>
+</section>
+
+   <section class="popular" id="class">
+  <div class="section__container popular__container">
+    <h2 class="section__header">What do you want to practice today?</h2>
+    <div class="popular__grid">
+      <div class="popular__card">
+        <div>
+          <h4>Cardio Training</h4>
+          <p>Complete exercise with a focus on endurance</p>
+        </div>
+        <span>
+          <i class="ri-arrow-right-fill"></i>
+        </span>
+      </div>
+      <div class="popular__card">
+        <div>
+          <h4>Strength Training</h4>
+          <p>Strengthen your muscles</p>
+        </div>
+        <span>
+          <i class="ri-arrow-right-fill"></i>
+        </span>
+      </div>
+      <div class="popular__card">
+        <div>
+          <h4>Yoga for Flexibility</h4>
+          <p>Increase your flexibility and relax</p>
+        </div>
+        <span>
+          <i class="ri-arrow-right-fill"></i>
+        </span>
+      </div>
+      <div class="popular__card">
+        <div>
+          <h4>HIIT</h4>
+          <p>Short, intense workouts</p>
+        </div>
+        <span>
+          <i class="ri-arrow-right-fill"></i>
+        </span>
+      </div>
+      <div class="popular__card">
+        <div>
+          <h4>Personalized Training</h4>
+          <p>Tailor-made training plans</p>
+        </div>
+        <span>
+          <i class="ri-arrow-right-fill"></i>
+        </span>
+      </div>
+      <div class="popular__card">
+        <div>
+          <h4>Group Classes</h4>
+          <p>Stay motivated and have fun</p>
+        </div>
+        <span>
+          <i class="ri-arrow-right-fill"></i>
+        </span>
+      </div>
+      <div class="popular__card">
+        <div>
+          <h4>Boxing Training</h4>
+          <p>Improve agility and endurance</p>
+        </div>
+        <span>
+          <i class="ri-arrow-right-fill"></i>
+        </span>
+      </div>
+      <div class="popular__card">
+        <div>
+          <h4>Pilates for the Core</h4>
+          <p>Strengthen your abdominal region</p>
+        </div>
+        <span>
+          <i class="ri-arrow-right-fill"></i>
+        </span>
+      </div>
+      <div class="popular__card">
+        <div>
+          <h4>Spinning Class</h4>
+          <p>High-energy pedaling</p>
+        </div>
+        <span>
+          <i class="ri-arrow-right-fill"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="facility__container">
+  <div class="facility__image">
+    <img src="{% static 'assets/img/image.png'%}" alt="installation" />
+  </div>
+  <div class="facility__content">
+    <h2 class="section__header">It's About Who You Can Become</h2>
+    <p>
+      At our Pilates space, we believe that wellness goes beyond the physical — It's about transforming your mind, respecting your limits, and discovering your full potential. Each practice is a step toward a healthier, more balanced, and more confident version of yourself.
+    </p>
+    <p>
+      It is not a question of quick fixes or temporary results; It's about adopting a lifestyle that strengthens the body and nourishes the mind. With the right practice and proper support, You can overcome challenges, conquer new moves, and live with more vitality.
+    </p>
+    <p>
+      Who you become depends only on you, but we believe in your potential. With dedication and focus, Pilates can turn your goals into reality.
+    </p>
+  </div>
+</section>
+
+
+    <section class="section__container mentor__container">
+  <h2 class="section__header">Have Your Own Instructor and Mentor</h2>
+  <div class="mentor__grid">
+    <div class="mentor__card">
+      <img src="{% static 'assets/img/mentor-1.png'%}" alt="instructor" />
+      <h4>David Alexassandro</h4>
+      <p>Wellness Coach</p>
+    </div>
+    <div class="mentor__card">
+      <img src="{% static 'assets/img/mentor-2.png'%}" alt="instructor" />
+      <h4>Jade Oliveira</h4>
+      <p>Stretching Specialist</p>
+    </div>
+    <div class="mentor__card">
+      <img src="{% static 'assets/img/mentor-3.png'%}" alt="instructor" />
+      <h4>Mirella Martins</h4>
+      <p>Pilates Instructor</p>
+    </div>
+  </div>
+</section>
+
+
+    <section class="banner" id="contact">
+  <div class="banner__content">
+    <h2>THE BEST INSTRUCTORS ARE HERE</h2>
+    <p>ARE YOU AN INSTRUCTOR? <a href="#">JOIN US</a></p>
+  </div>
+  <div class="banner__image">
+    <img src="{% static 'assets/img/banner.png'%}" alt="banner" />
+  </div>
+</section>
+
+
+<section class="footer">
+  <div class="section__container footer__container">
+    <div class="footer__col">
+      <a href="#" class="footer__logo">
+        <img src="{% static 'assets/img/logo1.png'%}" alt="logo" />
+      </a>
+      <ul class="footer__links">
+        <li>
+          <a href="#">
+            <span><i class="ri-phone-line"></i></span> +62 (87) 99999-9999
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span><i class="ri-map-pin-line"></i></span> Jl.Pilates - South Tangerang, Indonesia
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span><i class="ri-mail-line"></i></span> contact@pilatesvida.com
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Quick Links</h4>
+      <ul class="footer__links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Classes</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Plans</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Timings</h4>
+      <ul class="footer__links">
+        <li>Monday 7 am - 20 pm</li>
+        <li>Tuesday 7 am - 20 pm</li>
+        <li>Wednesday 7 am - 20 pm</li>
+        <li>Thursday 7 am - 20 pm</li>
+        <li>Friday 7 am - 20 pm</li>
+        <li>Saturday 7 am - 13 pm</li>
+        <li>Sunday Closed</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bar">
+    Copyright © 2026 Pilates Vida. All rights reserved.
+  </div>
+</section>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+  </body>
+</html>
